@@ -1,0 +1,31 @@
+{
+	"name": "eslint-config-jumbotron",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rfit/eslint-config-jumbotron.git"
+	},
+	"author": {
+		"name": "Rasmus Ljungmann Pedersen",
+		"email": "rasmuslp@gmail.com"
+	},
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/rfit/eslint-config-jumbotron/issues"
+	},
+	"homepage": "https://github.com/rfit/eslint-config-jumbotron#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "4.19.1",
+		"eslint-config-standard": "11.0.0",
+		"eslint-plugin-import": "2.11.0",
+		"eslint-plugin-node": "6.0.1",
+		"eslint-plugin-promise": "3.7.0",
+		"eslint-plugin-standard": "3.0.1"
+	}
+}
