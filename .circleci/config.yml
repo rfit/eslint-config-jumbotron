@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.11.1
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          name: Restore cache
+          keys:
+            - node-modules-{{ arch }}-{{ checksum "package.json" }}
+
+      - run:
+          command: npm install
+
+      - save_cache:
+          name: Save cache
+          key: node-modules-{{ arch }}-{{ checksum "package.json" }}
+          paths:
+            - "node_modules"
+
+      - run:
+          command: npm run lint
