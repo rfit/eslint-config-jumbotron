@@ -9,7 +9,7 @@ module.exports = {
 		'no-console': 'warn',
 
 		// Best Practices
-		'consistent-return': 'error',
+		'consistent-return': ['error', {treatUndefinedAsUnspecified: true}],
 		curly: 'error',
 		'default-case': 'error',
 
