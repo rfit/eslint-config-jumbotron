@@ -11,8 +11,7 @@
 		"url": "git+https://github.com/rfit/eslint-config-jumbotron.git"
 	},
 	"author": {
-		"name": "Rasmus Ljungmann Pedersen",
-		"email": "rasmuslp@gmail.com"
+		"name": "Rasmus Ljungmann Pedersen"
 	},
 	"license": "UNLICENSED",
 	"bugs": {
