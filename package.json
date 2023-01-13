@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config-jumbotron",
+	"name": "@rfit-root/eslint-config-jumbotron",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
